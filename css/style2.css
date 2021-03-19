@@ -1,0 +1,77 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background: url(../img/gymtwo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.container{
+	width: 1140px;
+	margin: 5% auto;
+
+
+}
+.login-section{
+	background: #8b000600;
+	padding: 25px;
+}
+.login-section img{
+	width: 150px;
+	margin: 0 auto; 
+	display: block;
+}
+.login-section h2{
+	text-align: center;
+	color: #fff;
+	font-size: 34px;
+	text-transform: uppercase; 
+}
+.login-section h3{
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	 
+}
+
+.form-control{
+	width: 97%;
+	height: 25px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.login-btn{
+	margin: 0 auto;
+	display: block;
+	background-color:  #80deff00;
+	color: #ffffff;
+	padding: 15px 30px;
+	font-size: 25px; 
+	text-transform: uppercase;
+	border: none;
+	transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;	
+}
+.login-btn:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 5px #ffff;
+
+}  
+
+h4{
+	color: #ffffff;
+	text-align: center;
+}
+
+a{
+	text-align: center;
+	display: block; 
+	color: #ffffff;
+	font-size: 18px;
+	
+}
